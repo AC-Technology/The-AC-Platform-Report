@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(../Fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url(../Fonts/Gilroy-Light.ttf);
+}
+
+@font-face {
+    font-family: "Gilrow-Medium";
+    src: url(../Fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Gilrow-Heavy";
+    src: url(../Fonts/Gilroy-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "Gilrow-Bold";
+    src: url(../Fonts/Gilroy-Bold.ttf);
+}
+
+.console-log {
+    border: 1px solid red;
+}
+
+.flexed {
+    display: flex;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+.f-row {
+    flex-direction: row;
+}
+
+.f-jc {
+    justify-content: center;
+}
+
+.f-jb {
+    justify-content: space-evenly;
+}
+
+.f-ac {
+    align-items: center;
+}
+
+.f-center {
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    overflow-y: scroll;
+    padding: 3% 2% 2%;
+    /* padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%; */
+}
+
+.table-container {
+    width: 100%;
+    box-shadow: 6px 7px 7px rgb(131, 130, 130);
+    border-radius: 5px;
+    border: 0.5px solid darkgray;
+
+
+}
+
+.table-header {
+    width: 100%;
+    height: 12vh;
+    border-radius: 5px 5px 0px 0px;
+    background: lightgray;
+}
+
+.heading {
+    width: 33.333%;
+    font-family: "Gilrow-Medium";
+    font-weight: 600;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+    /* border:1px solid black; */
+}
+
+.loading-gif {
+    height: 50vh;
+}
+
+
+.table-row {
+    height: 6vh;
+    text-align: center;
+    /* border: 1px solid blue; */
+}
+
+.table-cell {
+    width: 33.333%;
+    height: 100%;
+    font-size: larger;
+    font-family: "Gilrow-Medium";
+    text-align: left;
+    border-right: 1px solid darkgray;
+    border-left: 1px solid darkgray;
+
+    /* border: 1px solid black; */
+
+}
+
+.table-text {
+    padding-left: 1%;
+}
+
+.row-name:hover {
+    cursor: pointer;
+
+}
+
+.EVEN {
+    background: #CCC;
+}
+
+.ODD {
+    background: #FFF;
+
+}
+
+.table-footer {
+    /* border: 1px solid red; */
+    height: 6vh;
+    width: 100%;
+    border-top: 1px solid darkgray;
+    position: relative;
+
+}
+
+#right-arrow-icon {
+    height: 100%;
+    right: 1%;
+    position: absolute;
+
+}
+
+#left-arrow-icon {
+    height: 100%;
+    left: 1%;
+    position: absolute;
+}
+
+.table-footer img:hover {
+    cursor: pointer;
+}
+
+.footer-logo {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 22%;
+    /* border: 1px solid red; */
+    height: 32%;
+}
+
+.footer-logo img {
+    width: 90%;
+    margin-bottom: -16%;
+    /* padding-top: 40%; */
+    height: 82.5%;
+    width: auto;
+    /* border: 1px solid red; */
+    margin-left: 3%;
+}
+
+.footer-logo p {
+    width: 70%;
+    margin-left: 2%;
+    margin-bottom: -15%;
+    font-size: larger;
+    font-family: "Gilrow-Medium";
+    /* border: 1px solid red; */
+}
